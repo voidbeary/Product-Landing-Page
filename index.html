@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product landing page</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <header id="header">
-      <a href="#">
-        <img
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Product landing page</title>
+	<link rel="stylesheet" href="style.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<header id="header">
+		<a href="#">
+			<img
           class="logo"
           id="header-img"
           src="https://i.imgur.com/4x4vG92.png"
@@ -23,30 +21,30 @@
           aria-label="Donuts logotype"
         />
       </a>
-      <nav class="navbar" id="nav-bar">
-        <ul class="list">
-          <li class="listItem">
-            <a class="nav-link" href="#process">Our process</a>
-          </li>
-          <li class="listItem">
-            <a class="nav-link" href="#purpose">Our purpose</a>
-          </li>
-          <li class="listItem">
-            <a class="nav-link" href="#contacts">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h1>Donuts landing page</h1>
-      <div class="firstViewport">
-        <video id="video" class="video" autoplay muted loop>
-          <source src="https://i.imgur.com/8yV7MMY.mp4" type="video/mp4" />
-        </video>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <h3>Feeling hungry yet?</h3>
-          <label for="email"> Drop an email and we will contact you </label>
-          <input
+			<nav class="navbar" id="nav-bar">
+				<ul class="list">
+					<li class="listItem">
+						<a class="nav-link" href="#process">Our process</a>
+					</li>
+					<li class="listItem">
+						<a class="nav-link" href="#purpose">Our purpose</a>
+					</li>
+					<li class="listItem">
+						<a class="nav-link" href="#contacts">Contacts</a>
+					</li>
+				</ul>
+			</nav>
+	</header>
+	<main>
+		<h1>Donuts landing page</h1>
+		<div class="firstViewport">
+			<video id="video" class="video" autoplay muted loop>
+				<source src="https://i.imgur.com/8yV7MMY.mp4" type="video/mp4" />
+			</video>
+			<form id="form" action="https://www.freecodecamp.com/email-submit">
+				<h3>Feeling hungry yet?</h3>
+				<label for="email"> Drop an email and we will contact you </label>
+				<input
             class="emailInput"
             id="email"
             name="email"
@@ -54,98 +52,81 @@
             placeholder="email"
             required
           />
-          <input
+				<input
             class="submitButton"
             id="submit"
             type="submit"
             value="Submit"
           />
         </form>
+		</div>
+		<div class="secondViewport" id="process">
+      <div class="processField">
+        <h2>Our process of making donuts</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text
+          ever since the 1500s, when an unknown printer took a galley of type
+          and scrambled it to make a type specimen book. It has survived not
+          only five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s
+          with the release of Letraset sheets containing Lorem Ipsum passages,
+          and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum.
+        </p>
       </div>
-      <div class="secondViewport" id="process">
-        <div class="processField">
-          <h2>Our process of making donuts</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-        </div>
-        <img
-          class="secondBackground"
-          src="https://i.imgur.com/pSKCDF9.jpg"
-          height="100%"
-          width="100%"
-          alt="second background"
-        />
-      </div>
-      <div class="thirdViewport" id="purpose">
-        <img
-          class="thirdBackground"
-          src="https://i.imgur.com/uAJ2KDs.jpg"
-          height="100%"
-          width="100%"
-          alt="third background"
-        />
+    </div>
+			<div class="thirdViewport" id="purpose">
 
-        <div class="purposeField">
-          <h2>Our purpose</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-        </div>
-      </div>
-      <div class="fourthViewport" id="contacts">
-        <div class="contactField">
-          <img
+				<div class="purposeField">
+					<h2>Our purpose</h2>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting
+						industry. Lorem Ipsum has been the industry's standard dummy text
+						ever since the 1500s, when an unknown printer took a galley of type
+						and scrambled it to make a type specimen book. It has survived not
+						only five centuries, but also the leap into electronic typesetting,
+						remaining essentially unchanged. It was popularised in the 1960s
+						with the release of Letraset sheets containing Lorem Ipsum passages,
+						and more recently with desktop publishing software like Aldus
+						PageMaker including versions of Lorem Ipsum.
+					</p>
+				</div>
+			</div>
+			<div class="fourthViewport" id="contacts">
+				<div class="contactField">
+					<img
             src="https://i.imgur.com/lAUanUa.png"
             height="50px"
             width="50px"
             alt="Location"
           />
-          <a
-            class="contactText"
-            href="https://www.google.lt/maps/place/Vilniaus+g.+1,+Vilnius/@54.689941,25.2780414,17z"
-            target="_blank"
-          >
-            Vilniaus g. 1, Vilnius
-          </a>
-        </div>
-        <div class="contactField">
-          <img
+					<a class="contactText"
+						href="https://www.google.lt/maps/place/Vilniaus+g.+1,+Vilnius/@54.689941,25.2780414,17z"
+						target="_blank">
+						Vilniaus g. 1, Vilnius
+					</a>
+				</div>
+				<div class="contactField">
+					<img
             src="https://i.imgur.com/K9lDpA6.png"
             height="50px"
             width="50px"
             alt="Phone number"
           />
-          <a href="tel:+37067789990" class="contactText">+370 677 89990</a>
-        </div>
-        <div class="contactField">
-          <img
+					<a href="tel:+37067789990" class="contactText">+370 677 89990</a>
+				</div>
+				<div class="contactField">
+					<img
             src="https://i.imgur.com/0KOinyx.png"
             height="50px"
             width="50px"
             alt="Email adress"
           />
-          <a href="mailto:loremIpsum@gmail.com" class="contactText"
-            >loremIpsum@gmail.com</a
-          >
-        </div>
-      </div>
-    </main>
-  </body>
+					<a href="mailto:loremIpsum@gmail.com" class="contactText">loremIpsum@gmail.com</a>
+				</div>
+			</div>
+	</main>
+</body>
+
 </html>
